@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local MCP config (may contain API keys)
+.mcp.json
+
+# Clasp credentials (contains sensitive data)
+.clasprc.json
+.clasp.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test documents / sample uploads (not source)
+*.pdf
+
+# Internal planning / research docs (kept local, never published)
+PLAN_EXA_INTEGRATION.md
+TECH_STACK_RESEARCH.md
+prompt.md
+docs/UX_REDESIGN.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Svelte
+.svelte-kit/
+
+# Test coverage
+coverage/

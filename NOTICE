@@ -1,0 +1,22 @@
+Vaquill for Google Docs
+Copyright 2026 Vaquill
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Trademarks
+----------
+"Vaquill" and the Vaquill logo are trademarks of Vaquill and are NOT licensed
+under the Apache License. The permission granted by the Apache License applies
+to the source code only. It does not grant any right to use the Vaquill name,
+logo, or brand, whether to identify a derivative work, a competing product, or
+otherwise, except for reasonable and customary use in describing the origin of
+this code. Any fork or derivative must be released under a different name and
+must not imply endorsement by or affiliation with Vaquill.
+
+Nature of this software
+-----------------------
+This repository is a thin client for the Vaquill backend API. It contains the
+Google Docs add-on (Apps Script server code and Svelte sidebar) only. It does
+not include, and does not grant any license to, the Vaquill backend, models,
+prompts, corpus, or hosted services. Running it requires a Vaquill account, or
+your own backend that implements a compatible API.

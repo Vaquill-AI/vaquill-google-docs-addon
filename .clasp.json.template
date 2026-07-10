@@ -1,0 +1,13 @@
+{
+  "scriptId": "YOUR_SCRIPT_ID_HERE",
+  "rootDir": "./dist/gas",
+  "fileExtension": "gs",
+  "filePushOrder": [
+    "Code.gs",
+    "AuthService.gs",
+    "ApiClient.gs",
+    "NativeSuggestionService.gs",
+    "SuggestionService.gs",
+    "sidebar.html"
+  ]
+}
